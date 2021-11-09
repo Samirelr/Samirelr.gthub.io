@@ -1,0 +1,123 @@
+
+.san{
+    background-image: url("puente.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+   
+}
+.menu{
+    width: 100%;
+    height:70px;
+    background-color:rgb(117, 117, 117);
+    position: absolute;
+    top: 0;
+    
+ 
+    
+
+}
+.menu-ol{
+    padding-left: 10;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  
+    
+}
+.menu-ol_item {
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+
+}
+.menu-ol_item a{
+    width: 100%;
+    height: 35px;
+    padding: 7px 7px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    position: relative;
+    top: 50%;
+}
+.menu-ol_item a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+.div-ic{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+.div-ic-estilo img{
+    margin-top:1px ;
+    width: 40px;
+
+}
+.div-ic-estilo a >img :hover{
+    color: rgb(255, 255, 255);
+}
+footer{
+    position: relative;
+    top: 100%;
+}
+.div{
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+}
+.div-ic-estilo a:hover{
+    color: cadetblue;
+
+}
+.titulo{
+    background-image: url("hola.gif") ; 
+    width: 100%;
+    height: 150px;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    opacity: 40%;  
+}
+.titulo-san{
+    text-decoration: none;
+    padding: 2%;
+    width: 100%;
+    height: 70%;
+    font-size:500%;
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.nueva{
+    background-image: url("nueva.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+   
+}
+.nueva-park{
+    
+    background-image: url("nueva.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+section{
+    
+    margin-bottom: 3%;
+
+}
+.texto{
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 40, 40);
+    width: 60%;
+}
